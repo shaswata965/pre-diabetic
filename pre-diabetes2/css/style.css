@@ -3,6 +3,10 @@
     color: #27BDBE;
 }
 
+.arabic-close{
+    margin-right: -15px;
+}
+
 .navigation-header{
     margin-left: 5px!important;
     margin-right: 35px!important;
@@ -18,7 +22,11 @@
 }
 
 .arabic-indicator-set{
-    margin-left: -25px!important;
+    margin-left: -10px!important;
+}
+
+.arabic-page-count{
+    margin-right: -20px;
 }
 
 .page-indicator{
