@@ -3,6 +3,18 @@
     color: #27BDBE;
 }
 
+.arabic-close{
+    margin-right: -15px;
+}
+
+.arabic-indicator-set{
+    margin-left: -10px!important;
+}
+
+.arabic-page-count{
+    margin-right: -20px;
+}
+
 .navigation-header{
     margin-left: 5px!important;
     margin-right: 35px!important;
@@ -15,10 +27,6 @@
 
 .indicator-set{
     margin-right: -15px!important;
-}
-
-.arabic-indicator-set{
-    margin-left: -25px!important;
 }
 
 .page-indicator{
@@ -254,7 +262,7 @@
 @media  only screen and (max-width: 480px) and (min-width: 461px) {
     .page-indicator{
         display: inline-block;
-        width: 38px;
+        width: 36px;
         height: 8px;
         border-radius: 5px;
         background-color: #d7d6d6;
