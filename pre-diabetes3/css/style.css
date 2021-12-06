@@ -215,6 +215,10 @@
     opacity: 0.9;
 }
 
+.btn-block-droobi{
+    width:100%!important;
+}
+
 @media  only screen and (max-width: 392px) and (min-width: 360px) {
     .page-indicator{
         display: inline-block;
