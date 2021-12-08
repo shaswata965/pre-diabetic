@@ -3,6 +3,18 @@
     color: #27BDBE;
 }
 
+.arabic-close{
+    margin-right: -15px;
+}
+
+.arabic-indicator-set{
+    margin-left: -10px!important;
+}
+
+.arabic-page-count{
+    margin-right: -20px;
+}
+
 .navigation-header{
     margin-left: 5px!important;
     margin-right: 35px!important;
@@ -15,10 +27,6 @@
 
 .indicator-set{
     margin-right: -15px!important;
-}
-
-.arabic-indicator-set{
-    margin-left: -25px!important;
 }
 
 .page-indicator{
@@ -150,10 +158,10 @@
 }
 
 .right-answer-check:checked {
-    background-image: url('../images/right.png');
+    background-image: url('../html/images/right.png');
 }
 .right-answer-check:not(:checked) {
-    background-image: url('../images/first.png');
+    background-image: url('../html/images/first.png');
 }
 
 .wrong-answer-check{
@@ -168,10 +176,10 @@
 }
 
 .wrong-answer-check:checked {
-    background-image: url('../images/wrong.png');
+    background-image: url('../html/images/wrong.png');
 }
 .wrong-answer-check:not(:checked) {
-    background-image: url('../images/first.png');
+    background-image: url('../html/images/first.png');
 }
 
 .answer-indicator{
@@ -207,57 +215,57 @@
     opacity: 0.9;
 }
 
-@media  only screen and (max-width: 3922px) and (min-width: 360px) {
+@media  only screen and (max-width: 392px) and (min-width: 360px) {
     .page-indicator{
         display: inline-block;
-        width: 10px;
-        height: 5px;
+        width: 23px;
+        height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 1.6px 4px 1.6px;
     }
 }
 
 @media  only screen and (max-width: 412px) and (min-width: 393px) {
     .page-indicator{
         display: inline-block;
-        width: 12px;
-        height: 5px;
+        width: 25px;
+        height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 2px 4px 2px;
     }
 }
 
 @media  only screen and (max-width: 445px) and (min-width: 413px) {
     .page-indicator{
         display: inline-block;
-        width: 13px;
-        height: 6.5px;
+        width: 27px;
+        height: 7.5px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 2.2px 4px 2.2px;
     }
 }
 
 @media  only screen and (max-width: 460px) and (min-width: 446px) {
     .page-indicator{
         display: inline-block;
-        width: 14px;
-        height: 7px;
+        width: 29px;
+        height: 7.5px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 2.6px 4px 2.6px;
     }
 }
 
 @media  only screen and (max-width: 480px) and (min-width: 461px) {
     .page-indicator{
         display: inline-block;
-        width: 14.5px;
-        height: 7px;
+        width: 31px;
+        height: 7.5px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 2.8px 4px 2.8px;
     }
 }
