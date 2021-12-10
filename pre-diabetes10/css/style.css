@@ -3,6 +3,18 @@
     color: #27BDBE;
 }
 
+.arabic-close{
+    margin-right: -15px;
+}
+
+.arabic-indicator-set{
+    margin-left: -10px!important;
+}
+
+.arabic-page-count{
+    margin-right: -20px;
+}
+
 .navigation-header{
     margin-left: 5px!important;
     margin-right: 35px!important;
@@ -17,11 +29,16 @@
     margin-right: -15px!important;
 }
 
-.arabic-indicator-set{
-    margin-left: -25px!important;
+.page-indicator{
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #d7d6d6;
+    margin: 0 0.5px 3px 0.5px;
 }
 
-.page-indicator{
+.arabic-page-indicator{
     display: inline-block;
     width: 10px;
     height: 5px;
@@ -150,10 +167,10 @@
 }
 
 .right-answer-check:checked {
-    background-image: url('../images/right.png');
+    background-image: url('../html/images/right.png');
 }
 .right-answer-check:not(:checked) {
-    background-image: url('../images/first.png');
+    background-image: url('../html/images/first.png');
 }
 
 .wrong-answer-check{
@@ -168,10 +185,10 @@
 }
 
 .wrong-answer-check:checked {
-    background-image: url('../images/wrong.png');
+    background-image: url('../html/images/wrong.png');
 }
 .wrong-answer-check:not(:checked) {
-    background-image: url('../images/first.png');
+    background-image: url('../html/images/first.png');
 }
 
 .answer-indicator{
@@ -207,57 +224,102 @@
     opacity: 0.9;
 }
 
-@media  only screen and (max-width: 3922px) and (min-width: 360px) {
+@media  only screen and (max-width: 392px) and (min-width: 360px) {
     .page-indicator{
         display: inline-block;
-        width: 10px;
-        height: 5px;
+        width: 17px;
+        height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 1.6px 4px 1.6px;
+    }
+
+    .arabic-page-indicator{
+        display: inline-block;
+        width: 15px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1.6px 4px 1.6px;
     }
 }
 
 @media  only screen and (max-width: 412px) and (min-width: 393px) {
     .page-indicator{
         display: inline-block;
-        width: 12px;
-        height: 5px;
+        width: 19px;
+        height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 1.8px 4px 1.8px;
+    }
+
+    .arabic-page-indicator{
+        display: inline-block;
+        width: 17px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1.8px 4px 1.8px;
     }
 }
 
 @media  only screen and (max-width: 445px) and (min-width: 413px) {
     .page-indicator{
         display: inline-block;
-        width: 13px;
-        height: 6.5px;
+        width: 20px;
+        height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 1.9px 4px 1.9px;
+    }
+
+    .arabic-page-indicator{
+        display: inline-block;
+        width: 18px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 1.8px 4px 1.8px;
     }
 }
 
 @media  only screen and (max-width: 460px) and (min-width: 446px) {
     .page-indicator{
         display: inline-block;
-        width: 14px;
+        width: 21px;
         height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 2px 4px 2px;
+    }
+
+    .arabic-page-indicator{
+        display: inline-block;
+        width: 19px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 2px 4px 2px;
     }
 }
 
 @media  only screen and (max-width: 480px) and (min-width: 461px) {
     .page-indicator{
         display: inline-block;
-        width: 14.5px;
+        width: 23px;
         height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1px 4px 1px;
+        margin: 0 2.1px 4px 2.1px;
+    }
+
+    .arabic-page-indicator{
+        display: inline-block;
+        width: 20px;
+        height: 7px;
+        border-radius: 5px;
+        background-color: #d7d6d6;
+        margin: 0 2px 4px 2px;
     }
 }
